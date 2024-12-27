@@ -19,8 +19,8 @@ class MenuScene extends Phaser.Scene {
       fon_menu.displayWidth = 1920;
       fon_menu.displayHeight = 1080;
 
-      const sur1 = this.add.image(300, 100, 'sur').setOrigin(0, 0);
-      const sur2 = this.add.image(900, 100, 'sur').setOrigin(0, 0);
+      const sur1 = this.add.image(350, 100, 'sur').setOrigin(0, 0);
+      const sur2 = this.add.image(950, 100, 'sur').setOrigin(0, 0);
       // Заголовок меню
       this.add.text(centerX, centerY - 80, 'Shadows city', {
         fontSize: '64px',
